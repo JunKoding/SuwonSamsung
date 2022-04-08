@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2628009970004358D4 /* AppDelegate.swift */; };
+		F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2828009970004358D4 /* SceneDelegate.swift */; };
+		F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2A28009970004358D4 /* ViewController.swift */; };
+		F5DC7F2E28009970004358D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F2C28009970004358D4 /* Main.storyboard */; };
+		F5DC7F3028009971004358D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F2F28009971004358D4 /* Assets.xcassets */; };
+		F5DC7F3328009971004358D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */; };
+		F5DC7F3C280099C1004358D4 /* ROKAF-Sans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F3B280099C1004358D4 /* ROKAF-Sans-Medium.otf */; };
+		F5DC7F3F28009A7A004358D4 /* SuwonSamsung_Emblem.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F3E28009A7A004358D4 /* SuwonSamsung_Emblem.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5DC7F2328009970004358D4 /* SuwonSamsung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuwonSamsung.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DC7F2628009970004358D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5DC7F2828009970004358D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5DC7F2A28009970004358D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5DC7F2D28009970004358D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5DC7F2F28009971004358D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5DC7F3228009971004358D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5DC7F3428009971004358D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DC7F3B280099C1004358D4 /* ROKAF-Sans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ROKAF-Sans-Medium.otf"; sourceTree = "<group>"; };
+		F5DC7F3E28009A7A004358D4 /* SuwonSamsung_Emblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SuwonSamsung_Emblem.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5DC7F2028009970004358D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5DC7F1A28009970004358D4 = {
+			isa = PBXGroup;
+			children = (
+				F5DC7F2528009970004358D4 /* SuwonSamsung */,
+				F5DC7F2428009970004358D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5DC7F2428009970004358D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5DC7F2328009970004358D4 /* SuwonSamsung.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5DC7F2528009970004358D4 /* SuwonSamsung */ = {
+			isa = PBXGroup;
+			children = (
+				F5DC7F3D28009A6A004358D4 /* ImageView */,
+				F5DC7F3A28009989004358D4 /* Fonts */,
+				F5DC7F2628009970004358D4 /* AppDelegate.swift */,
+				F5DC7F2828009970004358D4 /* SceneDelegate.swift */,
+				F5DC7F2A28009970004358D4 /* ViewController.swift */,
+				F5DC7F2C28009970004358D4 /* Main.storyboard */,
+				F5DC7F2F28009971004358D4 /* Assets.xcassets */,
+				F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */,
+				F5DC7F3428009971004358D4 /* Info.plist */,
+			);
+			path = SuwonSamsung;
+			sourceTree = "<group>";
+		};
+		F5DC7F3A28009989004358D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5DC7F3B280099C1004358D4 /* ROKAF-Sans-Medium.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F5DC7F3D28009A6A004358D4 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				F5DC7F3E28009A7A004358D4 /* SuwonSamsung_Emblem.png */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5DC7F2228009970004358D4 /* SuwonSamsung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DC7F3728009971004358D4 /* Build configuration list for PBXNativeTarget "SuwonSamsung" */;
+			buildPhases = (
+				F5DC7F1F28009970004358D4 /* Sources */,
+				F5DC7F2028009970004358D4 /* Frameworks */,
+				F5DC7F2128009970004358D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuwonSamsung;
+			productName = SuwonSamsung;
+			productReference = F5DC7F2328009970004358D4 /* SuwonSamsung.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5DC7F1B28009970004358D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F5DC7F2228009970004358D4 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F5DC7F1E28009970004358D4 /* Build configuration list for PBXProject "SuwonSamsung" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5DC7F1A28009970004358D4;
+			productRefGroup = F5DC7F2428009970004358D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5DC7F2228009970004358D4 /* SuwonSamsung */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5DC7F2128009970004358D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DC7F3328009971004358D4 /* LaunchScreen.storyboard in Resources */,
+				F5DC7F3028009971004358D4 /* Assets.xcassets in Resources */,
+				F5DC7F2E28009970004358D4 /* Main.storyboard in Resources */,
+				F5DC7F3F28009A7A004358D4 /* SuwonSamsung_Emblem.png in Resources */,
+				F5DC7F3C280099C1004358D4 /* ROKAF-Sans-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5DC7F1F28009970004358D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */,
+				F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */,
+				F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5DC7F2C28009970004358D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5DC7F2D28009970004358D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5DC7F3228009971004358D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5DC7F3528009971004358D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5DC7F3628009971004358D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5DC7F3828009971004358D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q576T6797N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuwonSamsung/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JunKyuLee.SuwonSamsung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5DC7F3928009971004358D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q576T6797N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuwonSamsung/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JunKyuLee.SuwonSamsung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5DC7F1E28009970004358D4 /* Build configuration list for PBXProject "SuwonSamsung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DC7F3528009971004358D4 /* Debug */,
+				F5DC7F3628009971004358D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DC7F3728009971004358D4 /* Build configuration list for PBXNativeTarget "SuwonSamsung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DC7F3828009971004358D4 /* Debug */,
+				F5DC7F3928009971004358D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5DC7F1B28009970004358D4 /* Project object */;
+}
