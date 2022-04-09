@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  SuwonSamsung
+//  수원삼성블루윙즈 팬들을 위한 어플
 //
 //  Created by JunKyu Lee on 2022/04/09.
 //
