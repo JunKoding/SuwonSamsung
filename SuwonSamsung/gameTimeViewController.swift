@@ -13,6 +13,7 @@ class gameTimeViewController: UIViewController {
         presentingViewController?.dismiss(animated: true, completion: nil)
         
     }
+    // 처음 화면으로 돌아오는 버튼
     
     override func viewDidLoad() {
         super.viewDidLoad()
