@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     @IBAction func goGameTime(_ sender: UIButton) {
         let gameTime = storyboard?.instantiateViewController(withIdentifier: "gameTime")
+     // gameTime?.modalPresentationStyle = .fullScreen // 화면을 풀 스크린
         gameTime?.modalTransitionStyle = .coverVertical // 화면 전환 스타일
         present(gameTime!, animated: true, completion: nil) // 애니메이션 있고 끝나고는 아무것도 없이
         

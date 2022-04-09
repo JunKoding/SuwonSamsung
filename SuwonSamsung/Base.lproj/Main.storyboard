@@ -22,25 +22,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="수원삼성블루윙즈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6A7-cr-26s">
-                                <rect key="frame" x="20" y="93" width="374" height="71"/>
+                                <rect key="frame" x="20" y="90" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3g-Np-6Qe">
-                                <rect key="frame" x="54" y="248" width="307" height="401"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="made by Jun" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmz-Ch-pKV">
-                                <rect key="frame" x="54" y="789" width="307" height="27"/>
+                                <rect key="frame" x="254" y="820" width="139" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljS-mo-nYz">
-                                <rect key="frame" x="156" y="675" width="103" height="31"/>
+                                <rect key="frame" x="156" y="663" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="경기 일정" cornerStyle="capsule">
@@ -54,33 +50,50 @@
                                     <action selector="goGameTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d54-hN-Q4B"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eox-Ff-7AC">
+                                <rect key="frame" x="19" y="181" width="374" height="464"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tintColor"/>
                     </view>
                     <connections>
-                        <outlet property="imgView" destination="z3g-Np-6Qe" id="SgR-y8-lld"/>
+                        <outlet property="imgView" destination="eox-Ff-7AC" id="zPc-dG-BYE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="86.383928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Game Time View Controller-->
         <scene sceneID="YTP-8E-UGQ">
             <objects>
-                <viewController storyboardIdentifier="gameTime" id="NjQ-Su-e6n" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="gameTime" id="NjQ-Su-e6n" customClass="gameTimeViewController" customModule="SuwonSamsung" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="54Y-fa-qGL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="수원삼성블루윙즈 경기 일정" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ick-tF-di9">
-                                <rect key="frame" x="20" y="90" width="375" height="71"/>
+                                <rect key="frame" x="20" y="40" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAH-FG-NQF">
+                                <rect key="frame" x="10" y="10" width="34" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="x" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="15"/>
+                                    <color key="baseForegroundColor" systemColor="tintColor"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dissmissGameTime:" destination="NjQ-Su-e6n" eventType="touchUpInside" id="hh9-oG-uvX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GiU-EQ-zqt"/>
                         <color key="backgroundColor" systemColor="tintColor"/>

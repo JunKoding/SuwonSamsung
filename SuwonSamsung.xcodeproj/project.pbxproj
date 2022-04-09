@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F578FD122801DA2F00915DB6 /* gameTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */; };
 		F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2628009970004358D4 /* AppDelegate.swift */; };
 		F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2828009970004358D4 /* SceneDelegate.swift */; };
 		F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2A28009970004358D4 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameTimeViewController.swift; sourceTree = "<group>"; };
 		F5DC7F2328009970004358D4 /* SuwonSamsung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuwonSamsung.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DC7F2628009970004358D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5DC7F2828009970004358D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				F5DC7F2628009970004358D4 /* AppDelegate.swift */,
 				F5DC7F2828009970004358D4 /* SceneDelegate.swift */,
 				F5DC7F2A28009970004358D4 /* ViewController.swift */,
+				F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */,
 				F5DC7F2C28009970004358D4 /* Main.storyboard */,
 				F5DC7F2F28009971004358D4 /* Assets.xcassets */,
 				F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */,
 				F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */,
 				F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */,
+				F578FD122801DA2F00915DB6 /* gameTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
