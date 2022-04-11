@@ -1,15 +1,15 @@
 //
-//  gameTimeViewController.swift
+//  teamMemberViewController.swift
 //  SuwonSamsung
 //
-//  Created by JunKyu Lee on 2022/04/10.
+//  Created by JunKyu Lee on 2022/04/11.
 //
 
 import UIKit
 
-class gameTimeViewController: UIViewController {
-    
-    @IBAction func dissmissGameTime(_ sender: UIButton) {
+class teamMemberViewController: UIViewController {
+
+    @IBAction func dismissTeamMember(_ sender: UIButton) {
         presentingViewController?.dismiss(animated: true, completion: nil)
     } // 처음 화면으로 돌아가는 버튼
     
