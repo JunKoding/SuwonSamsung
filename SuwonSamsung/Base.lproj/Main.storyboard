@@ -40,7 +40,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9p8-9u-Sjb">
-                                <rect key="frame" x="157" y="650" width="105" height="35"/>
+                                <rect key="frame" x="40" y="650" width="105" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="선수단" cornerStyle="capsule">
@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1g-gI-Ed6">
-                                <rect key="frame" x="158" y="758" width="105" height="35"/>
+                                <rect key="frame" x="40" y="758" width="105" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="선발 라인업" cornerStyle="capsule">
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-ZD-yMV">
-                                <rect key="frame" x="157" y="704" width="105" height="35"/>
+                                <rect key="frame" x="40" y="704" width="105" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="경기 일정" cornerStyle="capsule">
@@ -81,6 +81,16 @@
                                 <connections>
                                     <action selector="goGameTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5N-Gx-y4U"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LS1-Kd-dzf">
+                                <rect key="frame" x="270" y="649" width="105" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="공식 사이트" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="15"/>
+                                    <color key="baseForegroundColor" systemColor="tintColor"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
