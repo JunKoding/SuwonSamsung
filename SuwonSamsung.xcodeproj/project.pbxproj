@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51EEF202806C6E20080B7F0 /* SwiftUI_SuwonSamsung_OfficialWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EEF1F2806C6E20080B7F0 /* SwiftUI_SuwonSamsung_OfficialWebView.swift */; };
+		F51EEF222806C7210080B7F0 /* OfficialWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EEF212806C7210080B7F0 /* OfficialWebView.swift */; };
 		F578FD122801DA2F00915DB6 /* gameTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */; };
 		F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B32804215D0077873F /* teamMemberViewController.swift */; };
 		F5ACF3B6280428FB0077873F /* lineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B5280428FB0077873F /* lineUpViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F51EEF1F2806C6E20080B7F0 /* SwiftUI_SuwonSamsung_OfficialWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SuwonSamsung_OfficialWebView.swift; sourceTree = "<group>"; };
+		F51EEF212806C7210080B7F0 /* OfficialWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialWebView.swift; sourceTree = "<group>"; };
 		F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameTimeViewController.swift; sourceTree = "<group>"; };
 		F5ACF3B32804215D0077873F /* teamMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamMemberViewController.swift; sourceTree = "<group>"; };
 		F5ACF3B5280428FB0077873F /* lineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineUpViewController.swift; sourceTree = "<group>"; };
@@ -74,10 +78,12 @@
 				F5ACF3B32804215D0077873F /* teamMemberViewController.swift */,
 				F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */,
 				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
+				F51EEF1F2806C6E20080B7F0 /* SwiftUI_SuwonSamsung_OfficialWebView.swift */,
 				F5DC7F2C28009970004358D4 /* Main.storyboard */,
 				F5DC7F2F28009971004358D4 /* Assets.xcassets */,
 				F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */,
 				F5DC7F3428009971004358D4 /* Info.plist */,
+				F51EEF212806C7210080B7F0 /* OfficialWebView.swift */,
 			);
 			path = SuwonSamsung;
 			sourceTree = "<group>";
@@ -173,9 +179,11 @@
 			files = (
 				F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */,
 				F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */,
+				F51EEF202806C6E20080B7F0 /* SwiftUI_SuwonSamsung_OfficialWebView.swift in Sources */,
 				F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */,
 				F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */,
 				F578FD122801DA2F00915DB6 /* gameTimeViewController.swift in Sources */,
+				F51EEF222806C7210080B7F0 /* OfficialWebView.swift in Sources */,
 				F5ACF3B6280428FB0077873F /* lineUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
