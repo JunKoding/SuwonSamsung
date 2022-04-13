@@ -51,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F51EEF232806CBBF0080B7F0 /* official webpage */ = {
+			isa = PBXGroup;
+			children = (
+				F51EEF212806C7210080B7F0 /* OfficialWebView.swift */,
+				F51EEF1F2806C6E20080B7F0 /* SwiftUI_SuwonSamsung_OfficialWebView.swift */,
+			);
+			path = "official webpage";
+			sourceTree = "<group>";
+		};
 		F5DC7F1A28009970004358D4 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +79,7 @@
 		F5DC7F2528009970004358D4 /* SuwonSamsung */ = {
 			isa = PBXGroup;
 			children = (
+				F51EEF232806CBBF0080B7F0 /* official webpage */,
 				F5DC7F3D28009A6A004358D4 /* ImageView */,
 				F5DC7F3A28009989004358D4 /* Fonts */,
 				F5DC7F2628009970004358D4 /* AppDelegate.swift */,
@@ -78,12 +88,10 @@
 				F5ACF3B32804215D0077873F /* teamMemberViewController.swift */,
 				F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */,
 				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
-				F51EEF1F2806C6E20080B7F0 /* SwiftUI_SuwonSamsung_OfficialWebView.swift */,
 				F5DC7F2C28009970004358D4 /* Main.storyboard */,
 				F5DC7F2F28009971004358D4 /* Assets.xcassets */,
 				F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */,
 				F5DC7F3428009971004358D4 /* Info.plist */,
-				F51EEF212806C7210080B7F0 /* OfficialWebView.swift */,
 			);
 			path = SuwonSamsung;
 			sourceTree = "<group>";
