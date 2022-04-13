@@ -39,7 +39,5 @@ class ViewController: UIViewController {
         imgView.image = UIImage(named: "SuwonSamsung_Emblem")
         // imgView에 SuwonSamsung_Emblem 이미지 할당
     }
-    
-    
 }
 
