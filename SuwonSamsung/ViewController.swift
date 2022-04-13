@@ -42,6 +42,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goOfficialWeb(_ sender: UIButton) {
+        // 버튼에 공식 사이트 연결
         
         let officialUrl = NSURL(string: "http://www.bluewings.kr")
         let officialSafariView: SFSafariViewController = SFSafariViewController(url: officialUrl! as URL)
