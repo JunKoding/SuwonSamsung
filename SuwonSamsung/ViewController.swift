@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
     
@@ -39,5 +40,13 @@ class ViewController: UIViewController {
         imgView.image = UIImage(named: "SuwonSamsung_Emblem")
         // imgView에 SuwonSamsung_Emblem 이미지 할당
     }
+    
+    @IBAction func goOfficialWeb(_ sender: UIButton) {
+        
+        let officialUrl = NSURL(string: "http://www.bluewings.kr")
+        let officialSafariView: SFSafariViewController = SFSafariViewController(url: officialUrl! as URL)
+        self.present(officialSafariView, animated: true, completion: nil)
+    }
+    
 }
 
