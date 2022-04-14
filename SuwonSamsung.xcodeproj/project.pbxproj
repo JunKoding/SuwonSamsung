@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F578FD122801DA2F00915DB6 /* gameTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */; };
 		F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B32804215D0077873F /* teamMemberViewController.swift */; };
 		F5ACF3B6280428FB0077873F /* lineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B5280428FB0077873F /* lineUpViewController.swift */; };
 		F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2628009970004358D4 /* AppDelegate.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameTimeViewController.swift; sourceTree = "<group>"; };
 		F5ACF3B32804215D0077873F /* teamMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamMemberViewController.swift; sourceTree = "<group>"; };
 		F5ACF3B5280428FB0077873F /* lineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineUpViewController.swift; sourceTree = "<group>"; };
 		F5DC7F2328009970004358D4 /* SuwonSamsung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuwonSamsung.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,14 +67,13 @@
 				F5DC7F3D28009A6A004358D4 /* ImageView */,
 				F5DC7F3A28009989004358D4 /* Fonts */,
 				F5DC7F2628009970004358D4 /* AppDelegate.swift */,
+				F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */,
 				F5DC7F2828009970004358D4 /* SceneDelegate.swift */,
 				F5DC7F2A28009970004358D4 /* ViewController.swift */,
 				F5ACF3B32804215D0077873F /* teamMemberViewController.swift */,
-				F578FD112801DA2F00915DB6 /* gameTimeViewController.swift */,
 				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
 				F5DC7F2C28009970004358D4 /* Main.storyboard */,
 				F5DC7F2F28009971004358D4 /* Assets.xcassets */,
-				F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */,
 				F5DC7F3428009971004358D4 /* Info.plist */,
 			);
 			path = SuwonSamsung;
@@ -175,7 +172,6 @@
 				F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */,
 				F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */,
 				F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */,
-				F578FD122801DA2F00915DB6 /* gameTimeViewController.swift in Sources */,
 				F5ACF3B6280428FB0077873F /* lineUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
