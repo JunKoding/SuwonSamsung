@@ -54,6 +54,12 @@ class ViewController: UIViewController {
         self.present(ticketSafariView, animated: true, completion: nil)
     }
     
+    @IBAction func bluewings1995(_ sender: UIButton) {
+        // 수원삼성 팬 페이지 url 연결
+        let bluewingsUrl = NSURL(string: "https://bluewings1995.com")
+        let bluewingsSafariView: SFSafariViewController = SFSafariViewController(url: bluewingsUrl! as URL)
+        self.present(bluewingsSafariView, animated: true, completion: nil)
+    }
     
 }
 
