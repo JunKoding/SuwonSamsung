@@ -7,4 +7,5 @@
 
 import Foundation
 
-let appKey = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
+let appKey = "946860e39d441b756c68e3a3dcfca230" // 날씨 api 요청 Key
+
