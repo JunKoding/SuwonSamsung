@@ -32,6 +32,13 @@ class ViewController: UIViewController {
         present(lineUp!, animated: true, completion: nil)
     } // 선발 라인업으로 가는 버튼
     
+    
+    @IBAction func goBigbirdForecast(_ sender: UIButton) {
+        let bigbirdForecast = storyboard?.instantiateViewController(withIdentifier: "bigbirdForecast")
+        bigbirdForecast?.modalTransitionStyle = .coverVertical
+        present(bigbirdForecast!, animated: true, completion: nil)
+    } // 경기장 날씨 페이지로 가는 버튼
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
