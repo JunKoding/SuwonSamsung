@@ -21,20 +21,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="made by Jun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCR-iY-fWo">
-                                <rect key="frame" x="264" y="780" width="130" height="40"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SuwonSamsung_Emblem.png" translatesAutoresizingMaskIntoConstraints="NO" id="h6d-9b-91b">
+                                <rect key="frame" x="22" y="198" width="370" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="Muo-F8-fDK"/>
+                                    <constraint firstAttribute="width" constant="370" id="oAF-T8-yYF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="made by Jun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGi-ej-Pza">
+                                <rect key="frame" x="254" y="822" width="140" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SuwonSamsung_Emblem.png" translatesAutoresizingMaskIntoConstraints="NO" id="cKW-4d-kFl">
-                                <rect key="frame" x="40" y="198" width="335" height="500"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h6d-9b-91b" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="q6a-1U-UNl"/>
+                            <constraint firstItem="h6d-9b-91b" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="u4W-YO-srN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

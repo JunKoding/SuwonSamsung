@@ -49,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F560B9A0280C2D3100126E64 /* page */ = {
+			isa = PBXGroup;
+			children = (
+				F54998C92809739D00BF16D9 /* weather.swift */,
+				F5ACF3B32804215D0077873F /* teamMemberViewController.swift */,
+				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
+				F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */,
+			);
+			path = page;
+			sourceTree = "<group>";
+		};
 		F5DC7F1A28009970004358D4 = {
 			isa = PBXGroup;
 			children = (
@@ -68,16 +79,13 @@
 		F5DC7F2528009970004358D4 /* SuwonSamsung */ = {
 			isa = PBXGroup;
 			children = (
+				F560B9A0280C2D3100126E64 /* page */,
 				F5DC7F3D28009A6A004358D4 /* ImageView */,
 				F5DC7F3A28009989004358D4 /* Fonts */,
 				F5DC7F2628009970004358D4 /* AppDelegate.swift */,
 				F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */,
 				F5DC7F2828009970004358D4 /* SceneDelegate.swift */,
 				F5DC7F2A28009970004358D4 /* ViewController.swift */,
-				F54998C92809739D00BF16D9 /* weather.swift */,
-				F5ACF3B32804215D0077873F /* teamMemberViewController.swift */,
-				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
-				F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */,
 				F5DC7F2C28009970004358D4 /* Main.storyboard */,
 				F5DC7F2F28009971004358D4 /* Assets.xcassets */,
 				F5DC7F3428009971004358D4 /* Info.plist */,
@@ -332,8 +340,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SuwonSamsung/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,8 +370,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SuwonSamsung/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
