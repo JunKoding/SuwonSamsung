@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         let lineUp = storyboard?.instantiateViewController(withIdentifier: "lineUp")
         lineUp?.modalTransitionStyle = .coverVertical
         present(lineUp!, animated: true, completion: nil)
-    } // 선발 라인업으로 가는 버튼
+    } // 수원삼성블루윙즈 선발 라인업으로 가는 버튼
     
     
     @IBAction func goBigbirdForecast(_ sender: UIButton) {
