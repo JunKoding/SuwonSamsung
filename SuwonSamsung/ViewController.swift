@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     } // 수원삼성블루윙즈 선발 라인업으로 가는 버튼
     
     
+    
     @IBAction func goBigbirdForecast(_ sender: UIButton) {
         let bigbirdForecast = storyboard?.instantiateViewController(withIdentifier: "bigbirdForecast")
         bigbirdForecast?.modalTransitionStyle = .coverVertical
