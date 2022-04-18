@@ -10,6 +10,8 @@
 		F513E2AF280AEB05004696E3 /* bigbirdForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */; };
 		F54998CA2809739D00BF16D9 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54998C92809739D00BF16D9 /* weather.swift */; };
 		F56439C2280D456A00DAE074 /* competitorLineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56439C1280D456A00DAE074 /* competitorLineUpViewController.swift */; };
+		F56439C7280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F56439C6280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg */; };
+		F56439C9280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F56439C8280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg */; };
 		F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B32804215D0077873F /* teamMemberViewController.swift */; };
 		F5ACF3B6280428FB0077873F /* lineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B5280428FB0077873F /* lineUpViewController.swift */; };
 		F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2628009970004358D4 /* AppDelegate.swift */; };
@@ -26,6 +28,8 @@
 		F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigbirdForecastViewController.swift; sourceTree = "<group>"; };
 		F54998C92809739D00BF16D9 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
 		F56439C1280D456A00DAE074 /* competitorLineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = competitorLineUpViewController.swift; sourceTree = "<group>"; };
+		F56439C6280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Round.9 - SeoulLineUp.jpeg"; sourceTree = "<group>"; };
+		F56439C8280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Round.9 - SuwonLineUp.jpeg"; sourceTree = "<group>"; };
 		F5ACF3B32804215D0077873F /* teamMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamMemberViewController.swift; sourceTree = "<group>"; };
 		F5ACF3B5280428FB0077873F /* lineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineUpViewController.swift; sourceTree = "<group>"; };
 		F5DC7F2328009970004358D4 /* SuwonSamsung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuwonSamsung.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,15 @@
 				F56439C1280D456A00DAE074 /* competitorLineUpViewController.swift */,
 			);
 			path = page;
+			sourceTree = "<group>";
+		};
+		F56439C5280D47CF00DAE074 /* LineUp */ = {
+			isa = PBXGroup;
+			children = (
+				F56439C8280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg */,
+				F56439C6280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg */,
+			);
+			path = LineUp;
 			sourceTree = "<group>";
 		};
 		F5DC7F1A28009970004358D4 = {
@@ -107,6 +120,7 @@
 		F5DC7F3D28009A6A004358D4 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				F56439C5280D47CF00DAE074 /* LineUp */,
 				F5DC7F3E28009A7A004358D4 /* SuwonSamsung_Emblem.png */,
 			);
 			path = ImageView;
@@ -171,10 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5DC7F3328009971004358D4 /* LaunchScreen.storyboard in Resources */,
+				F56439C9280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg in Resources */,
 				F5DC7F3028009971004358D4 /* Assets.xcassets in Resources */,
 				F5DC7F2E28009970004358D4 /* Main.storyboard in Resources */,
 				F5DC7F3F28009A7A004358D4 /* SuwonSamsung_Emblem.png in Resources */,
 				F5DC7F3C280099C1004358D4 /* ROKAF-Sans-Medium.otf in Resources */,
+				F56439C7280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
