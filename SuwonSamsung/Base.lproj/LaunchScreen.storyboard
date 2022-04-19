@@ -32,12 +32,12 @@
                                 <rect key="frame" x="254" y="822" width="140" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="tintColor"/>
                         <constraints>
                             <constraint firstItem="h6d-9b-91b" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="q6a-1U-UNl"/>
                             <constraint firstItem="h6d-9b-91b" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="u4W-YO-srN"/>
@@ -51,8 +51,8 @@
     </scenes>
     <resources>
         <image name="SuwonSamsung_Emblem.png" width="787" height="1024"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

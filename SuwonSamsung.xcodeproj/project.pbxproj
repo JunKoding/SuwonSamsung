@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F513E2AF280AEB05004696E3 /* bigbirdForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */; };
 		F54998CA2809739D00BF16D9 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54998C92809739D00BF16D9 /* weather.swift */; };
-		F56439C2280D456A00DAE074 /* competitorLineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56439C1280D456A00DAE074 /* competitorLineUpViewController.swift */; };
 		F56439C7280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F56439C6280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg */; };
 		F56439C9280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F56439C8280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg */; };
 		F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B32804215D0077873F /* teamMemberViewController.swift */; };
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigbirdForecastViewController.swift; sourceTree = "<group>"; };
 		F54998C92809739D00BF16D9 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
-		F56439C1280D456A00DAE074 /* competitorLineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = competitorLineUpViewController.swift; sourceTree = "<group>"; };
 		F56439C6280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Round.9 - SeoulLineUp.jpeg"; sourceTree = "<group>"; };
 		F56439C8280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Round.9 - SuwonLineUp.jpeg"; sourceTree = "<group>"; };
 		F5ACF3B32804215D0077873F /* teamMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamMemberViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				F5ACF3B32804215D0077873F /* teamMemberViewController.swift */,
 				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
 				F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */,
-				F56439C1280D456A00DAE074 /* competitorLineUpViewController.swift */,
 			);
 			path = page;
 			sourceTree = "<group>";
@@ -202,7 +199,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F513E2AF280AEB05004696E3 /* bigbirdForecastViewController.swift in Sources */,
-				F56439C2280D456A00DAE074 /* competitorLineUpViewController.swift in Sources */,
 				F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */,
 				F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */,
 				F54998CA2809739D00BF16D9 /* weather.swift in Sources */,
