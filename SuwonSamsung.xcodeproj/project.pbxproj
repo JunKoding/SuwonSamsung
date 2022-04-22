@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F513E2AF280AEB05004696E3 /* bigbirdForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */; };
 		F54998CA2809739D00BF16D9 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54998C92809739D00BF16D9 /* weather.swift */; };
+		F552F4F82812D258000E0A37 /* API_Key.plist in Resources */ = {isa = PBXBuildFile; fileRef = F552F4F72812D258000E0A37 /* API_Key.plist */; };
 		F56439C7280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F56439C6280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg */; };
 		F56439C9280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F56439C8280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg */; };
 		F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B32804215D0077873F /* teamMemberViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigbirdForecastViewController.swift; sourceTree = "<group>"; };
 		F54998C92809739D00BF16D9 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		F552F4F72812D258000E0A37 /* API_Key.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = API_Key.plist; sourceTree = "<group>"; };
 		F56439C6280D48C400DAE074 /* Round.9 - SeoulLineUp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Round.9 - SeoulLineUp.jpeg"; sourceTree = "<group>"; };
 		F56439C8280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Round.9 - SuwonLineUp.jpeg"; sourceTree = "<group>"; };
 		F5ACF3B32804215D0077873F /* teamMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamMemberViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				F5DC7F2C28009970004358D4 /* Main.storyboard */,
 				F5DC7F2F28009971004358D4 /* Assets.xcassets */,
 				F5DC7F3428009971004358D4 /* Info.plist */,
+				F552F4F72812D258000E0A37 /* API_Key.plist */,
 			);
 			path = SuwonSamsung;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5DC7F3328009971004358D4 /* LaunchScreen.storyboard in Resources */,
+				F552F4F82812D258000E0A37 /* API_Key.plist in Resources */,
 				F56439C9280D48CC00DAE074 /* Round.9 - SuwonLineUp.jpeg in Resources */,
 				F5DC7F3028009971004358D4 /* Assets.xcassets in Resources */,
 				F5DC7F2E28009970004358D4 /* Main.storyboard in Resources */,
