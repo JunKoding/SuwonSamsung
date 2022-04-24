@@ -13,26 +13,17 @@ class ViewController: UIViewController {
     @IBOutlet var imgView: UIImageView!
     // 이미지 뷰에 대한 아웃렛 변수
     
-    @IBAction func goTeamMember(_ sender: UIButton) {
-        let teamMember = storyboard?.instantiateViewController(withIdentifier: "teamMember")
-        teamMember?.modalTransitionStyle = .coverVertical
-        present(teamMember!, animated: true, completion: nil)
-    } // 선수단 페이지로 가는 버튼
-    
     @IBAction func goGameTime(_ sender: UIButton) {
         let gameTimeUrl = NSURL(string: "https://m.sports.naver.com/kfootball/schedule/team?category=kleague&date=20220505&teamCode=02")
         let gameTimeSafariView: SFSafariViewController = SFSafariViewController(url: gameTimeUrl! as URL)
         self.present(gameTimeSafariView, animated: true, completion: nil)
     } // 버튼에 경기 일정 url 연결
-    
-    
+        
     @IBAction func lineUp(_ sender: UIButton) {
         let lineUp = storyboard?.instantiateViewController(withIdentifier: "lineUp")
         lineUp?.modalTransitionStyle = .coverVertical
         present(lineUp!, animated: true, completion: nil)
     } // 수원삼성블루윙즈 선발 라인업으로 가는 버튼
-    
-    
     
     @IBAction func goBigbirdForecast(_ sender: UIButton) {
         let bigbirdForecast = storyboard?.instantiateViewController(withIdentifier: "bigbirdForecast")

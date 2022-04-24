@@ -10,7 +10,6 @@
 		F513E2AF280AEB05004696E3 /* bigbirdForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */; };
 		F54998CA2809739D00BF16D9 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54998C92809739D00BF16D9 /* weather.swift */; };
 		F552F4F82812D258000E0A37 /* API_Key.plist in Resources */ = {isa = PBXBuildFile; fileRef = F552F4F72812D258000E0A37 /* API_Key.plist */; };
-		F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B32804215D0077873F /* teamMemberViewController.swift */; };
 		F5ACF3B6280428FB0077873F /* lineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B5280428FB0077873F /* lineUpViewController.swift */; };
 		F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2628009970004358D4 /* AppDelegate.swift */; };
 		F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2828009970004358D4 /* SceneDelegate.swift */; };
@@ -26,7 +25,6 @@
 		F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigbirdForecastViewController.swift; sourceTree = "<group>"; };
 		F54998C92809739D00BF16D9 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
 		F552F4F72812D258000E0A37 /* API_Key.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = API_Key.plist; sourceTree = "<group>"; };
-		F5ACF3B32804215D0077873F /* teamMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamMemberViewController.swift; sourceTree = "<group>"; };
 		F5ACF3B5280428FB0077873F /* lineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineUpViewController.swift; sourceTree = "<group>"; };
 		F5DC7F2328009970004358D4 /* SuwonSamsung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuwonSamsung.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DC7F2628009970004358D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				F54998C92809739D00BF16D9 /* weather.swift */,
-				F5ACF3B32804215D0077873F /* teamMemberViewController.swift */,
 				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
 				F513E2AE280AEB05004696E3 /* bigbirdForecastViewController.swift */,
 			);
@@ -195,7 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F513E2AF280AEB05004696E3 /* bigbirdForecastViewController.swift in Sources */,
-				F5ACF3B42804215D0077873F /* teamMemberViewController.swift in Sources */,
 				F5DC7F2B28009970004358D4 /* ViewController.swift in Sources */,
 				F54998CA2809739D00BF16D9 /* weather.swift in Sources */,
 				F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */,
