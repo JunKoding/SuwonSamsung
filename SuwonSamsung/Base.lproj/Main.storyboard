@@ -161,19 +161,6 @@
             </objects>
             <point key="canvasLocation" x="-1439" y="491"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="kBk-Sq-FAe">
-            <objects>
-                <navigationController id="jkg-xt-h9s" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SQf-PS-aJ0">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aPq-CI-Zjz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-443" y="491"/>
-        </scene>
         <!--Line Up View Controller-->
         <scene sceneID="5xT-aJ-Bhl">
             <objects>
