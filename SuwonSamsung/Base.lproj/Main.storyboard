@@ -189,7 +189,7 @@
                                     <action selector="dismissLineUp:" destination="ABc-ca-w4x" eventType="touchUpInside" id="aad-fi-Q8v"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXM-Gh-nlV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suwonLineUp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DXM-Gh-nlV">
                                 <rect key="frame" x="37" y="82" width="340" height="340"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -200,7 +200,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ddT-9w-WHE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gimchoenLineUp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ddT-9w-WHE">
                                 <rect key="frame" x="37" y="430" width="340" height="340"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -215,6 +215,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gimchoenLineUp.jpg" width="1242" height="1233"/>
+        <image name="suwonLineUp.jpg" width="1242" height="1237"/>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
