@@ -19,8 +19,6 @@
 		F5DC7F3328009971004358D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F3128009971004358D4 /* LaunchScreen.storyboard */; };
 		F5DC7F3C280099C1004358D4 /* ROKAF-Sans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F3B280099C1004358D4 /* ROKAF-Sans-Medium.otf */; };
 		F5DC7F3F28009A7A004358D4 /* SuwonSamsung_Emblem.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DC7F3E28009A7A004358D4 /* SuwonSamsung_Emblem.png */; };
-		F5F44FB82819107D00CB08F4 /* gimchoenLineUp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F44FB72819107C00CB08F4 /* gimchoenLineUp.jpg */; };
-		F5F44FBA2819108000CB08F4 /* suwonLineUp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F44FB92819108000CB08F4 /* suwonLineUp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +36,6 @@
 		F5DC7F3428009971004358D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5DC7F3B280099C1004358D4 /* ROKAF-Sans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ROKAF-Sans-Medium.otf"; sourceTree = "<group>"; };
 		F5DC7F3E28009A7A004358D4 /* SuwonSamsung_Emblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SuwonSamsung_Emblem.png; sourceTree = "<group>"; };
-		F5F44FB72819107C00CB08F4 /* gimchoenLineUp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gimchoenLineUp.jpg; sourceTree = "<group>"; };
-		F5F44FB92819108000CB08F4 /* suwonLineUp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suwonLineUp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +62,6 @@
 		F56439C5280D47CF00DAE074 /* LineUp */ = {
 			isa = PBXGroup;
 			children = (
-				F5F44FB72819107C00CB08F4 /* gimchoenLineUp.jpg */,
-				F5F44FB92819108000CB08F4 /* suwonLineUp.jpg */,
 			);
 			path = LineUp;
 			sourceTree = "<group>";
@@ -186,9 +180,7 @@
 				F5DC7F3028009971004358D4 /* Assets.xcassets in Resources */,
 				F5DC7F2E28009970004358D4 /* Main.storyboard in Resources */,
 				F5DC7F3F28009A7A004358D4 /* SuwonSamsung_Emblem.png in Resources */,
-				F5F44FB82819107D00CB08F4 /* gimchoenLineUp.jpg in Resources */,
 				F5DC7F3C280099C1004358D4 /* ROKAF-Sans-Medium.otf in Resources */,
-				F5F44FBA2819108000CB08F4 /* suwonLineUp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
